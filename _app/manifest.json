@@ -1,6 +1,6 @@
 {
   ".svelte-kit/build/runtime/internal/start.js": {
-    "file": "start-2ba60d4f.js",
+    "file": "start-5f0bdad0.js",
     "src": ".svelte-kit/build/runtime/internal/start.js",
     "isEntry": true,
     "imports": [
@@ -50,7 +50,7 @@
     ]
   },
   "src/routes/posts/[slug].svelte": {
-    "file": "pages/posts/_slug_.svelte-827d4a10.js",
+    "file": "pages/posts/_slug_.svelte-21b72f3b.js",
     "src": "src/routes/posts/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -101,7 +101,7 @@
     ]
   },
   "posts/dropbox-like-software/index.md": {
-    "file": "chunks/index-a80ebb50.js",
+    "file": "chunks/index-0ef080b8.js",
     "src": "posts/dropbox-like-software/index.md",
     "isDynamicEntry": true,
     "imports": [
