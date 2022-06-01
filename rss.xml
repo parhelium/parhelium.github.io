@@ -1,0 +1,42 @@
+
+    <rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Parhelium</title>
+    <link>https://work.parhelium.com</link>
+    <description>Parhelium's blog</description>
+    <atom:link href="https://work.parhelium.com/rss.xml" rel="self" type="application/rss+xml" />
+    
+          <item>
+            <guid>https://work.parhelium.com/posts/dropbox-like-software</guid>
+            <title>Dropbox-like software used by top hollywood studios</title>
+            <description>Dropbox-like software !</description>
+            <link>https://work.parhelium.com/posts/dropbox-like-software</link>
+            <pubDate>Sat, 28 May 2022 00:00:00 GMT</pubDate>
+        </item>
+      
+          <item>
+            <guid>https://work.parhelium.com/posts/network-gives</guid>
+            <title>Network.gives</title>
+            <description>Networking platform focused…</description>
+            <link>https://work.parhelium.com/posts/network-gives</link>
+            <pubDate>Sat, 28 May 2022 00:00:00 GMT</pubDate>
+        </item>
+      
+          <item>
+            <guid>https://work.parhelium.com/posts/sail-be-your-own-bank</guid>
+            <title>Sail</title>
+            <description>Cryptocurrency wallet focused on builtin decentralized swap feature and privacy.</description>
+            <link>https://work.parhelium.com/posts/sail-be-your-own-bank</link>
+            <pubDate>Sat, 28 May 2022 00:00:00 GMT</pubDate>
+        </item>
+      
+          <item>
+            <guid>https://work.parhelium.com/posts/thinkchef-franchise-menu-management</guid>
+            <title>Thinkchef - menu management software</title>
+            <description>Thinkchef - menu management software</description>
+            <link>https://work.parhelium.com/posts/thinkchef-franchise-menu-management</link>
+            <pubDate>Sun, 01 Jan 2012 00:00:00 GMT</pubDate>
+        </item>
+      
+  </channel>
+</rss>
