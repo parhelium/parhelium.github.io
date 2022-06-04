@@ -7,9 +7,18 @@
     <atom:link href="https://work.parhelium.com/rss.xml" rel="self" type="application/rss+xml" />
     
           <item>
+            <guid>https://work.parhelium.com/posts/about</guid>
+            <title>About me</title>
+            <description>Experienced Software Consultant with a demonstrated history of working in the information technology and
+services industry.</description>
+            <link>https://work.parhelium.com/posts/about</link>
+            <pubDate>Wed, 01 Jun 2022 00:00:00 GMT</pubDate>
+        </item>
+      
+          <item>
             <guid>https://work.parhelium.com/posts/dropbox-like-software</guid>
             <title>Dropbox-like software used by top hollywood studios</title>
-            <description>Dropbox-like software !</description>
+            <description></description>
             <link>https://work.parhelium.com/posts/dropbox-like-software</link>
             <pubDate>Sat, 28 May 2022 00:00:00 GMT</pubDate>
         </item>
@@ -17,7 +26,7 @@
           <item>
             <guid>https://work.parhelium.com/posts/network-gives</guid>
             <title>Network.gives</title>
-            <description>Networking platform focused…</description>
+            <description>Network.Gives is a platform for professionals to network with other professionals. The goal is to make meaningful connections with contacts on the platform, not to accumulate “connections” that you will never help or get help from.</description>
             <link>https://work.parhelium.com/posts/network-gives</link>
             <pubDate>Sat, 28 May 2022 00:00:00 GMT</pubDate>
         </item>
@@ -33,7 +42,7 @@
           <item>
             <guid>https://work.parhelium.com/posts/thinkchef-franchise-menu-management</guid>
             <title>Thinkchef - menu management software</title>
-            <description>Thinkchef - menu management software</description>
+            <description>Have you had a turning point in your work? Thinkchef was a springboard for me. I went from being an engineer/specialist to designing an app and leading a team.</description>
             <link>https://work.parhelium.com/posts/thinkchef-franchise-menu-management</link>
             <pubDate>Sun, 01 Jan 2012 00:00:00 GMT</pubDate>
         </item>

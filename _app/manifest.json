@@ -1,6 +1,6 @@
 {
   ".svelte-kit/build/runtime/internal/start.js": {
-    "file": "start-2221910c.js",
+    "file": "start-d23eb19f.js",
     "src": ".svelte-kit/build/runtime/internal/start.js",
     "isEntry": true,
     "imports": [
@@ -11,6 +11,7 @@
       "src/routes/__layout.svelte",
       ".svelte-kit/build/components/error.svelte",
       "src/routes/index.svelte",
+      "src/routes/about.svelte",
       "src/routes/posts/[slug].svelte",
       "src/routes/posts/[...page].svelte"
     ],
@@ -40,7 +41,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-69514d83.js",
+    "file": "pages/index.svelte-a12a5b98.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -49,8 +50,17 @@
       "_ButtonLink.svelte_svelte_type_style_lang-33d416f9.js"
     ]
   },
+  "src/routes/about.svelte": {
+    "file": "pages/about.svelte-795379be.js",
+    "src": "src/routes/about.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-863c1364.js"
+    ]
+  },
   "src/routes/posts/[slug].svelte": {
-    "file": "pages/posts/_slug_.svelte-eb5e4596.js",
+    "file": "pages/posts/_slug_.svelte-1c9979ad.js",
     "src": "src/routes/posts/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -61,6 +71,7 @@
       "_ButtonLink.svelte_svelte_type_style_lang-33d416f9.js"
     ],
     "dynamicImports": [
+      "posts/about/index.md",
       "posts/dropbox-like-software/index.md",
       "posts/network-gives/index.md",
       "posts/sail-be-your-own-bank/index.md",
@@ -100,20 +111,40 @@
       "_ButtonLink.svelte_svelte_type_style_lang-33d416f9.js"
     ]
   },
-  "posts/dropbox-like-software/index.md": {
-    "file": "chunks/index-82ad8b19.js",
-    "src": "posts/dropbox-like-software/index.md",
+  "posts/about/index.md": {
+    "file": "chunks/index-7c8c57ea.js",
+    "src": "posts/about/index.md",
     "isDynamicEntry": true,
     "imports": [
       "_index-863c1364.js"
     ]
   },
+  "posts/dropbox-like-software/index.md": {
+    "file": "chunks/index-fd0a66f5.js",
+    "src": "posts/dropbox-like-software/index.md",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-863c1364.js"
+    ],
+    "assets": [
+      "assets/team-1741fc79.png",
+      "assets/stats-5bce8d8e.png"
+    ]
+  },
   "posts/network-gives/index.md": {
-    "file": "chunks/index-64990f9a.js",
+    "file": "chunks/index-ee5a7963.js",
     "src": "posts/network-gives/index.md",
     "isDynamicEntry": true,
     "imports": [
       "_index-863c1364.js"
+    ],
+    "assets": [
+      "assets/NetworkGives1-56e78960.png",
+      "assets/NetworkGives2-25e223fb.png",
+      "assets/NetworkGives3-c5edd610.png",
+      "assets/NetworkGives4-6600e6c7.png",
+      "assets/NetworkGives5-d7481898.png",
+      "assets/NetworkGives6-fc44d4a5.png"
     ]
   },
   "posts/sail-be-your-own-bank/index.md": {
@@ -125,11 +156,15 @@
     ]
   },
   "posts/thinkchef-franchise-menu-management/index.md": {
-    "file": "chunks/index-f7eae624.js",
+    "file": "chunks/index-168b355d.js",
     "src": "posts/thinkchef-franchise-menu-management/index.md",
     "isDynamicEntry": true,
     "imports": [
       "_index-863c1364.js"
+    ],
+    "assets": [
+      "assets/thinkchef2-8677e164.png",
+      "assets/thinkchef-7a9c820f.png"
     ]
   }
 }
