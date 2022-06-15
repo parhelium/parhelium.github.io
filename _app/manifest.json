@@ -1,12 +1,12 @@
 {
   ".svelte-kit/build/runtime/internal/start.js": {
-    "file": "start-d1a8970a.js",
+    "file": "start-a8efbad4.js",
     "src": ".svelte-kit/build/runtime/internal/start.js",
     "isEntry": true,
     "imports": [
-      "_index-bd0d527c.js",
+      "_index-c6b9875b.js",
       "_preload-helper-e4860ae8.js",
-      "_index-fc3678bd.js"
+      "_index-a42be050.js"
     ],
     "dynamicImports": [
       "src/routes/__layout.svelte",
@@ -20,52 +20,52 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-3954426b.js",
+    "file": "pages/__layout.svelte-2499feac.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-bd0d527c.js",
-      "_stores-8d163115.js",
-      "_index-fc3678bd.js"
+      "_index-c6b9875b.js",
+      "_stores-e3ad1572.js",
+      "_index-a42be050.js"
     ],
     "css": [
       "assets/pages/__layout.svelte-c9e3ca85.css"
     ]
   },
   ".svelte-kit/build/components/error.svelte": {
-    "file": "error.svelte-d5c96b86.js",
+    "file": "error.svelte-c0f5d976.js",
     "src": ".svelte-kit/build/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-bd0d527c.js"
+      "_index-c6b9875b.js"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-d5049053.js",
+    "file": "pages/index.svelte-a6a5d698.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-bd0d527c.js",
-      "_stores-8d163115.js",
+      "_index-c6b9875b.js",
+      "_stores-e3ad1572.js",
       "_info-d3a40cd1.js",
-      "_index-fc3678bd.js"
+      "_index-a42be050.js"
     ],
     "css": [
       "assets/pages/index.svelte-1a4e1e20.css"
     ]
   },
   "src/routes/posts/[slug].svelte": {
-    "file": "pages/posts/_slug_.svelte-b567925f.js",
+    "file": "pages/posts/_slug_.svelte-59676a06.js",
     "src": "src/routes/posts/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_preload-helper-e4860ae8.js",
-      "_index-bd0d527c.js",
-      "_ArrowLeftIcon-56baa011.js",
+      "_index-c6b9875b.js",
+      "_ArrowLeftIcon-c2dfc4bd.js",
       "_info-d3a40cd1.js"
     ],
     "dynamicImports": [
@@ -80,63 +80,63 @@
     ]
   },
   "src/routes/posts/[...page].svelte": {
-    "file": "pages/posts/_...page_.svelte-a5af099d.js",
+    "file": "pages/posts/_...page_.svelte-bfd98b6a.js",
     "src": "src/routes/posts/[...page].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-bd0d527c.js",
-      "_ArrowLeftIcon-56baa011.js",
+      "_index-c6b9875b.js",
+      "_ArrowLeftIcon-c2dfc4bd.js",
       "_info-d3a40cd1.js"
     ]
   },
-  "_index-bd0d527c.js": {
-    "file": "chunks/index-bd0d527c.js"
+  "_index-c6b9875b.js": {
+    "file": "chunks/index-c6b9875b.js"
   },
-  "_index-fc3678bd.js": {
-    "file": "chunks/index-fc3678bd.js",
+  "_index-a42be050.js": {
+    "file": "chunks/index-a42be050.js",
     "imports": [
-      "_index-bd0d527c.js"
+      "_index-c6b9875b.js"
     ]
   },
   "_preload-helper-e4860ae8.js": {
     "file": "chunks/preload-helper-e4860ae8.js"
   },
-  "_stores-8d163115.js": {
-    "file": "chunks/stores-8d163115.js",
+  "_stores-e3ad1572.js": {
+    "file": "chunks/stores-e3ad1572.js",
     "imports": [
-      "_index-fc3678bd.js"
+      "_index-a42be050.js"
     ]
   },
   "_info-d3a40cd1.js": {
     "file": "chunks/info-d3a40cd1.js"
   },
-  "_ArrowLeftIcon-56baa011.js": {
-    "file": "chunks/ArrowLeftIcon-56baa011.js",
+  "_ArrowLeftIcon-c2dfc4bd.js": {
+    "file": "chunks/ArrowLeftIcon-c2dfc4bd.js",
     "imports": [
-      "_index-bd0d527c.js"
+      "_index-c6b9875b.js"
     ],
     "css": [
       "assets/ArrowLeftIcon-e43931b6.css"
     ]
   },
   "posts/about/index.md": {
-    "file": "chunks/index-674f7927.js",
+    "file": "chunks/index-7dd8b264.js",
     "src": "posts/about/index.md",
     "isDynamicEntry": true,
     "imports": [
-      "_index-bd0d527c.js"
+      "_index-c6b9875b.js"
     ],
     "assets": [
       "assets/kuba-wyrobek-1024-c1-19730c89.jpg"
     ]
   },
   "posts/dropbox-like-software/index.md": {
-    "file": "chunks/index-1d035667.js",
+    "file": "chunks/index-b805f103.js",
     "src": "posts/dropbox-like-software/index.md",
     "isDynamicEntry": true,
     "imports": [
-      "_index-bd0d527c.js"
+      "_index-c6b9875b.js"
     ],
     "assets": [
       "assets/team-1741fc79.png",
@@ -144,11 +144,11 @@
     ]
   },
   "posts/network-gives/index.md": {
-    "file": "chunks/index-b64f68e7.js",
+    "file": "chunks/index-89f43d84.js",
     "src": "posts/network-gives/index.md",
     "isDynamicEntry": true,
     "imports": [
-      "_index-bd0d527c.js"
+      "_index-c6b9875b.js"
     ],
     "assets": [
       "assets/NetworkGives1-56e78960.png",
@@ -160,22 +160,22 @@
     ]
   },
   "posts/sail-be-your-own-bank/index.md": {
-    "file": "chunks/index-f35b7350.js",
+    "file": "chunks/index-7fde8f37.js",
     "src": "posts/sail-be-your-own-bank/index.md",
     "isDynamicEntry": true,
     "imports": [
-      "_index-bd0d527c.js"
+      "_index-c6b9875b.js"
     ],
     "assets": [
       "assets/logo-f3ad029c.jpg"
     ]
   },
   "posts/thinkchef-franchise-menu-management/index.md": {
-    "file": "chunks/index-01b247db.js",
+    "file": "chunks/index-fa952790.js",
     "src": "posts/thinkchef-franchise-menu-management/index.md",
     "isDynamicEntry": true,
     "imports": [
-      "_index-bd0d527c.js"
+      "_index-c6b9875b.js"
     ],
     "assets": [
       "assets/thinkchef2-8677e164.png",
