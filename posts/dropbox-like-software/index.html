@@ -13,18 +13,18 @@
 		<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-5057a6c8.css">
 		<link rel="stylesheet" href="/_app/assets/pages/posts/_slug_.svelte-22927b1b.css">
 		<link rel="stylesheet" href="/_app/assets/ArrowLeftIcon-e43931b6.css">
-		<link rel="modulepreload" href="/_app/start-c1e405ea.js">
+		<link rel="modulepreload" href="/_app/start-4fb49756.js">
 		<link rel="modulepreload" href="/_app/chunks/index-c6b9875b.js">
 		<link rel="modulepreload" href="/_app/chunks/preload-helper-e4860ae8.js">
 		<link rel="modulepreload" href="/_app/chunks/index-a42be050.js">
-		<link rel="modulepreload" href="/_app/pages/__layout.svelte-e3a1d468.js">
-		<link rel="modulepreload" href="/_app/chunks/stores-e3ad1572.js">
+		<link rel="modulepreload" href="/_app/pages/__layout.svelte-faf78d58.js">
+		<link rel="modulepreload" href="/_app/chunks/stores-10c25052.js">
 		<link rel="modulepreload" href="/_app/pages/posts/_slug_.svelte-0265e5d9.js">
 		<link rel="modulepreload" href="/_app/chunks/ArrowLeftIcon-c2dfc4bd.js">
 		<link rel="modulepreload" href="/_app/chunks/info-d3a40cd1.js">
 
 		<script type="module">
-			import { start } from "/_app/start-c1e405ea.js";
+			import { start } from "/_app/start-4fb49756.js";
 			start({
 				target: document.querySelector("#svelte"),
 				paths: {"base":"","assets":""},
@@ -36,7 +36,7 @@
 					status: 200,
 					error: null,
 					nodes: [
-						import("/_app/pages/__layout.svelte-e3a1d468.js"),
+						import("/_app/pages/__layout.svelte-faf78d58.js"),
 						import("/_app/pages/posts/_slug_.svelte-0265e5d9.js")
 					],
 					url: new URL("http://prerender/posts/dropbox-like-software"),
@@ -45,16 +45,20 @@
 			});
 		</script>
   <script>
-    const storageValue = JSON.parse(localStorage.getItem('prefersLight'))
-    const prefersLight = storageValue
-      ? Boolean(storageValue)
-      : window?.matchMedia('(prefers-color-scheme: light)').matches
+    let prefersLight = Boolean(window?.matchMedia('(prefers-color-scheme: light)').matches)
+    console.log("app.html -> prefersLight = ", typeof prefersLight, prefersLight);
+    // if key 'prefersLight' doesn't exists
+    if (localStorage.getItem("prefersLight") === null) {
+      localStorage.setItem('prefersLight', prefersLight);
+    } else {
+      prefersLight = Boolean(JSON.parse(localStorage.getItem('prefersLight')));
+    }
+    
 
-    localStorage.setItem('prefersLight', prefersLight)
-
-    // default to dark mode unless explicitly set preference to light
+    // // default to dark mode unless explicitly set preference to light
     if (prefersLight) {
-      document.querySelector('html').classList.remove('dark')
+      console.log("app.html -> prefersLight = ", typeof prefersLight, prefersLight);
+      document.querySelector('html').classList.remove('dark');
     }
   </script>
 </head>
