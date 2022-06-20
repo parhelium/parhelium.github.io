@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" class="dark">
-
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="icon" href="/favicon.png" />
-  <title>Parhelium</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/favicon.png" />
+    <title>Parhelium</title>
 
 		
 
@@ -42,28 +41,36 @@
 				}
 			});
 		</script>
-  <script>
-    let prefersLight = Boolean(window?.matchMedia('(prefers-color-scheme: light)').matches)
-    console.log("app.html -> prefersLight = ", typeof prefersLight, prefersLight);
-    // if key 'prefersLight' doesn't exists
-    if (localStorage.getItem("prefersLight") === null) {
-      localStorage.setItem('prefersLight', prefersLight);
-    } else {
-      prefersLight = Boolean(JSON.parse(localStorage.getItem('prefersLight')));
-    }
-    
+    <script>
+      let prefersLight = Boolean(window?.matchMedia('(prefers-color-scheme: light)').matches)
+      console.log('app.html -> prefersLight = ', typeof prefersLight, prefersLight)
+      // if key 'prefersLight' doesn't exists
+      if (localStorage.getItem('prefersLight') === null) {
+        localStorage.setItem('prefersLight', prefersLight)
+      } else {
+        prefersLight = Boolean(JSON.parse(localStorage.getItem('prefersLight')))
+      }
 
-    // // default to dark mode unless explicitly set preference to light
-    if (prefersLight) {
-      console.log("app.html -> prefersLight = ", typeof prefersLight, prefersLight);
-      document.querySelector('html').classList.remove('dark');
-    }
-  </script>
-</head>
+      // // default to dark mode unless explicitly set preference to light
+      if (prefersLight) {
+        console.log('app.html -> prefersLight = ', typeof prefersLight, prefersLight)
+        document.querySelector('html').classList.remove('dark')
+      }
+    </script>
 
-<body class="relative transition-colors duration-100 bg-slate-100 dark:bg-slate-900">
-  <div class="fixed inset-0 -z-50 dark:bg-gradient-to-br dark:from-slate-900 dark:to-slate-800"></div>
-  <div id="svelte" class="z-0">
+    <script
+      async
+      src="https://metrics.parhelium.com/tracker.js"
+      data-ackee-server="https://metrics.parhelium.com"
+      data-ackee-domain-id="d7ddcead-8362-4061-b7eb-553a86d688e8"
+    ></script>
+  </head>
+
+  <body class="relative transition-colors duration-100 bg-slate-100 dark:bg-slate-900">
+    <div
+      class="fixed inset-0 -z-50 dark:bg-gradient-to-br dark:from-slate-900 dark:to-slate-800"
+    ></div>
+    <div id="svelte" class="z-0">
 
 
 <div class="bg-gray-50 dark:bg-gray-900"><div class="flex flex-col justify-center px-8"><nav class="flex items-center justify-between w-full relative max-w-2xl border-gray-600 dark:border-gray-700 mx-auto pt-4 pb-2 sm:pb-16 text-gray-900 bg-gray-50 dark:bg-gray-900 bg-opacity-60 dark:text-gray-100"><div class="ml-[-0.60rem]"><a class="font-semibold text-gray-800 dark:text-gray-200 md:inline-block p-1 sm:px-3 sm:py-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-800 transition-all" href="/"><span class="capsize">home</span></a>
@@ -77,9 +84,9 @@
           <h2 class="text-gray-700 dark:text-gray-200 mb-4">Founder at <span class="font-semibold"><img src="./../parhelium-logo-dark.png" class="object-scale-down h-4 inline ml-1"></span></h2>
           <p class="text-gray-600 dark:text-gray-400 mb-0 sm:mb-16 min-w-800 invisible sm:visible "><main>
 	<div id="demo" class="svelte-1s5d5g0">
-				Helped <p class="svelte-1s5d5g0">VP</p> 
+				Helped <p class="svelte-1s5d5g0">PM</p> 
 				to
-				<p class=" svelte-1s5d5g0">architect solution for business problem </p>.
+				<p class=" svelte-1s5d5g0">to deliver high quality software on time </p>.
 		</div>
 </main></p></div>
         <div class="w-[80px] sm:w-[126px] relative mb-8 mt-4 sm:mb-0 mr-auto"><span style="box-sizing: border-box; display: inline-block; overflow: hidden; width: initial; height: initial; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; opacity: 1; border: 0px none; margin: 0px; padding: 0px; position: relative; max-width: 100%;"><span style="box-sizing: border-box; display: block; width: initial; height: initial; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; opacity: 1; border: 0px none; margin: 0px; padding: 0px; max-width: 100%;"><img style="display: block; max-width: 100%; width: initial; height: initial; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; opacity: 1; border: 0px none; margin: 0px; padding: 0px;" alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27176%27%20height=%27176%27/%3e"></span>
@@ -118,10 +125,9 @@
 
 <script type="application/json" data-type="svelte-data" data-url="/posts.json?limit=2">{"status":200,"statusText":"","headers":{"content-type":"text/plain;charset=UTF-8"},"body":"[{\"title\":\"About me\",\"date\":\"2022-06-01\",\"slug\":\"about\",\"isIndexFile\":true,\"component\":{},\"preview\":{\"html\":\"\u003Cp\u003E\u003Cimg src=\\\"\u002F_app\u002Fassets\u002Fkuba-wyrobek-1024-c1-19730c89.jpg\\\" alt=\\\"header\\\"\u003E\\nIn top 20 of meteor developers based on Stackoverflow - \u003Ca href=\\\"https:\u002F\u002Fstackoverflow.com\u002Ftags\u002Fmeteor\u002Ftopusers\\\" rel=\\\"nofollow\\\"\u003Ehttps:\u002F\u002Fstackoverflow.com\u002Ftags\u002Fmeteor\u002Ftopusers\u003C\u002Fa\u003E\u003C\u002Fp\u003E\",\"text\":\"In top 20 of meteor developers based on Stackoverflow - https:\u002F\u002Fstackoverflow.com\u002Ftags\u002Fmeteor\u002Ftopusers\"},\"readingTime\":\"2 min read\",\"previous\":{\"title\":\"Dropbox-like software used by top hollywood studios\",\"date\":\"2022-05-28\",\"slug\":\"dropbox-like-software\",\"isIndexFile\":true,\"component\":{},\"preview\":{\"html\":\"\u003Cp\u003E\u003Cimg src=\\\"\u002F_app\u002Fassets\u002Fteam-1741fc79.png\\\" alt=\\\"team\\\"\u003E Is trust really key in a team? In this project I found out that it is…\u003C\u002Fp\u003E\",\"text\":\" Is trust really key in a team? In this project I found out that it is…\"},\"readingTime\":\"2 min read\"}},{\"title\":\"Dropbox-like software used by top hollywood studios\",\"date\":\"2022-05-28\",\"slug\":\"dropbox-like-software\",\"isIndexFile\":true,\"component\":{},\"preview\":{\"html\":\"\u003Cp\u003E\u003Cimg src=\\\"\u002F_app\u002Fassets\u002Fteam-1741fc79.png\\\" alt=\\\"team\\\"\u003E Is trust really key in a team? In this project I found out that it is…\u003C\u002Fp\u003E\",\"text\":\" Is trust really key in a team? In this project I found out that it is…\"},\"readingTime\":\"2 min read\",\"next\":{\"title\":\"About me\",\"date\":\"2022-06-01\",\"slug\":\"about\",\"isIndexFile\":true,\"component\":{},\"preview\":{\"html\":\"\u003Cp\u003E\u003Cimg src=\\\"\u002F_app\u002Fassets\u002Fkuba-wyrobek-1024-c1-19730c89.jpg\\\" alt=\\\"header\\\"\u003E\\nIn top 20 of meteor developers based on Stackoverflow - \u003Ca href=\\\"https:\u002F\u002Fstackoverflow.com\u002Ftags\u002Fmeteor\u002Ftopusers\\\" rel=\\\"nofollow\\\"\u003Ehttps:\u002F\u002Fstackoverflow.com\u002Ftags\u002Fmeteor\u002Ftopusers\u003C\u002Fa\u003E\u003C\u002Fp\u003E\",\"text\":\"In top 20 of meteor developers based on Stackoverflow - https:\u002F\u002Fstackoverflow.com\u002Ftags\u002Fmeteor\u002Ftopusers\"},\"readingTime\":\"2 min read\"},\"previous\":{\"title\":\"Network.gives\",\"date\":\"2022-05-28\",\"slug\":\"network-gives\",\"isIndexFile\":true,\"component\":{},\"preview\":{\"html\":\"\u003Cp\u003E\u003Cimg src=\\\"\u002F_app\u002Fassets\u002FNetworkGives1-56e78960.png\\\" alt=\\\"header\\\"\u003E Network.Gives is a platform for professionals to network with other professionals. The goal is to make meaningful connections with contacts on the platform, not to accumulate “connections” that you will never help or get help from.\u003C\u002Fp\u003E\",\"text\":\" Network.Gives is a platform for professionals to network with other professionals. The goal is to make meaningful connections with contacts on the platform, not to accumulate “connections” that you will never help or get help from.\"},\"readingTime\":\"1 min read\"}}]"}</script></div>
 
-  <!-- this fixes a bug in chrome where animations trigger from unstyled to styled content on page load -->
-  <!-- https://stackoverflow.com/a/42969257/6342734 -->
-  <!-- prettier-ignore -->
-  <script> </script>
-</body>
-
+    <!-- this fixes a bug in chrome where animations trigger from unstyled to styled content on page load -->
+    <!-- https://stackoverflow.com/a/42969257/6342734 -->
+    <!-- prettier-ignore -->
+    <script> </script>
+  </body>
 </html>
