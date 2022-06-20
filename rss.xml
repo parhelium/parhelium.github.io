@@ -1,48 +1,48 @@
 
     <rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>Parhelium</title>
-    <link>https://work.parhelium.com</link>
-    <description>Parhelium's blog</description>
-    <atom:link href="https://work.parhelium.com/rss.xml" rel="self" type="application/rss+xml" />
+    <title>Kuba Wyrobek | Parhelium </title>
+    <link>https://kuba-wyrobek.parhelium.com</link>
+    <description>Kuba Wyrobek | Parhelium 's blog</description>
+    <atom:link href="https://kuba-wyrobek.parhelium.com/rss.xml" rel="self" type="application/rss+xml" />
     
           <item>
-            <guid>https://work.parhelium.com/posts/about</guid>
+            <guid>https://kuba-wyrobek.parhelium.com/posts/about</guid>
             <title>About me</title>
             <description>In top 20 of meteor developers based on Stackoverflow - https://stackoverflow.com/tags/meteor/topusers</description>
-            <link>https://work.parhelium.com/posts/about</link>
+            <link>https://kuba-wyrobek.parhelium.com/posts/about</link>
             <pubDate>Wed, 01 Jun 2022 00:00:00 GMT</pubDate>
         </item>
       
           <item>
-            <guid>https://work.parhelium.com/posts/dropbox-like-software</guid>
+            <guid>https://kuba-wyrobek.parhelium.com/posts/dropbox-like-software</guid>
             <title>Dropbox-like software used by top hollywood studios</title>
             <description> Is trust really key in a team? In this project I found out that it is…</description>
-            <link>https://work.parhelium.com/posts/dropbox-like-software</link>
+            <link>https://kuba-wyrobek.parhelium.com/posts/dropbox-like-software</link>
             <pubDate>Sat, 28 May 2022 00:00:00 GMT</pubDate>
         </item>
       
           <item>
-            <guid>https://work.parhelium.com/posts/network-gives</guid>
+            <guid>https://kuba-wyrobek.parhelium.com/posts/network-gives</guid>
             <title>Network.gives</title>
             <description> Network.Gives is a platform for professionals to network with other professionals. The goal is to make meaningful connections with contacts on the platform, not to accumulate “connections” that you will never help or get help from.</description>
-            <link>https://work.parhelium.com/posts/network-gives</link>
+            <link>https://kuba-wyrobek.parhelium.com/posts/network-gives</link>
             <pubDate>Sat, 28 May 2022 00:00:00 GMT</pubDate>
         </item>
       
           <item>
-            <guid>https://work.parhelium.com/posts/sail-be-your-own-bank</guid>
+            <guid>https://kuba-wyrobek.parhelium.com/posts/sail-be-your-own-bank</guid>
             <title>Sail</title>
             <description> Cryptocurrency wallet focused on builtin decentralized swap feature and privacy.</description>
-            <link>https://work.parhelium.com/posts/sail-be-your-own-bank</link>
+            <link>https://kuba-wyrobek.parhelium.com/posts/sail-be-your-own-bank</link>
             <pubDate>Sat, 28 May 2022 00:00:00 GMT</pubDate>
         </item>
       
           <item>
-            <guid>https://work.parhelium.com/posts/thinkchef-franchise-menu-management</guid>
+            <guid>https://kuba-wyrobek.parhelium.com/posts/thinkchef-franchise-menu-management</guid>
             <title>Thinkchef - franchise management software</title>
             <description>Have you had a turning point in your work? Thinkchef was a springboard for me. I went from being an engineer/specialist to designing an app and leading a team.</description>
-            <link>https://work.parhelium.com/posts/thinkchef-franchise-menu-management</link>
+            <link>https://kuba-wyrobek.parhelium.com/posts/thinkchef-franchise-menu-management</link>
             <pubDate>Thu, 26 May 2022 00:00:00 GMT</pubDate>
         </item>
       

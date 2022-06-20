@@ -11,40 +11,40 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml"
       >
         <url>
-          <loc>https://work.parhelium.com</loc>
+          <loc>https://kuba-wyrobek.parhelium.com</loc>
           <priority>1.0</priority>
         </url>
 
         <url>
-              <loc>https://work.parhelium.com/posts/about</loc>
+              <loc>https://kuba-wyrobek.parhelium.com/posts/about</loc>
               <lastmod
                 >2022-06-01T00:00:00.000Z</lastmod
               >
               <changefreq>monthly</changefreq>
               <priority>1.0</priority>
             </url><url>
-              <loc>https://work.parhelium.com/posts/dropbox-like-software</loc>
+              <loc>https://kuba-wyrobek.parhelium.com/posts/dropbox-like-software</loc>
               <lastmod
                 >2022-05-28T00:00:00.000Z</lastmod
               >
               <changefreq>monthly</changefreq>
               <priority>1.0</priority>
             </url><url>
-              <loc>https://work.parhelium.com/posts/network-gives</loc>
+              <loc>https://kuba-wyrobek.parhelium.com/posts/network-gives</loc>
               <lastmod
                 >2022-05-28T00:00:00.000Z</lastmod
               >
               <changefreq>monthly</changefreq>
               <priority>1.0</priority>
             </url><url>
-              <loc>https://work.parhelium.com/posts/sail-be-your-own-bank</loc>
+              <loc>https://kuba-wyrobek.parhelium.com/posts/sail-be-your-own-bank</loc>
               <lastmod
                 >2022-05-28T00:00:00.000Z</lastmod
               >
               <changefreq>monthly</changefreq>
               <priority>1.0</priority>
             </url><url>
-              <loc>https://work.parhelium.com/posts/thinkchef-franchise-menu-management</loc>
+              <loc>https://kuba-wyrobek.parhelium.com/posts/thinkchef-franchise-menu-management</loc>
               <lastmod
                 >2022-05-26T00:00:00.000Z</lastmod
               >
